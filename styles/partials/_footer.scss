@@ -8,11 +8,15 @@ footer{
     text-align: center;
 }
 .social_media{
+    width: 320px;
     padding-right: 45px;
     padding-left: 45px;
     margin-top: 16px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-
+}
+i{
+    width: 16px;
+    height: 28px;
 }
