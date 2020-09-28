@@ -539,6 +539,7 @@ i {
   /*Footer*/
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003196}}
   footer {
+    height: 140px;
     top: 0px;
     display: flex;
     justify-content: space-between;
@@ -547,16 +548,16 @@ i {
     font-size: 16px;
     bottom: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003206}}
   i {
     width: 18px;
     height: 28px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003210}}
   .social_media {
     margin-top: 0px; } }
 @media screen and (min-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003217}}
   .siblings {
     padding-left: 6.9%;
     padding-right: 6.9%;
@@ -566,7 +567,7 @@ i {
     justify-content: space-between;
     align-content: space-around; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Daniel\/Documents\/Acamica\/Proyectos\/Podcast\/styles\/partials\/_responsive\.scss}line{font-family:\00003226}}
   iframe {
     width: 40.6%;
     height: 5.9%;
