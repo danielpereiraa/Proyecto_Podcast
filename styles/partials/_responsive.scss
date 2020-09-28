@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px){
+@media screen and (min-width: 500px){
     header { 
         height: 80px;
         padding: 26px 5%;
@@ -16,17 +16,22 @@
         padding: 5px 10px;
         display: inline-block;
     }
+    header nav .menu .list li a:visited {
+        text-decoration: line-through;
+        color: rgba(6,10,36,0.56);
+    }
     header nav .menu  ul li:hover {
-        background: unset;
-        border-bottom: 2px solid black;
+        background: #ffffff;
     }
     header nav .menu ul li a {
+        color: $primary;
         padding: unset;
         line-height: unset;
-        color: #060A24;
     }
-    header nav .menu  ul li a:hover {
-        color: unset;
+    header nav .menu .list li a:hover {
+        background: white;
+        text-decoration: line-through;
+        color: $third;
     }
     header nav .menu input {
         display: none;
@@ -34,6 +39,10 @@
     header nav .menu span {
         display: none;
     }
+    .hoverable:hover{
+        color: $third;
+    }
+    
     main {
         margin-top: 120px;
         font-size: 16px;
@@ -81,7 +90,7 @@
 
     /* Section Episodes */
     
-    .episodes{
+    #episodes{
         height: 714px;
     }
     .skewb{
@@ -172,18 +181,23 @@
     }
     .button2 {
         transform: skewY(6deg);
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: center;
+    }
+    #button1{
+        margin-left: 0px;
+        margin-bottom: 5px;
+        background-color: $third;
+        width: 226px;
+        height: 56px;
+        justify-content: center;
     }
     
     /*Footer*/
 
     footer{
+        top: 0px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 95px;
         padding-top: 0px;
         font-size: 16px;
         bottom: 0px;

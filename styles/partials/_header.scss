@@ -1,4 +1,5 @@
 header {
+    font-family: 'IBM Plex Mono', monospace;
     width: 100%;
     height: 44px;
     display: fixed;
@@ -91,3 +92,4 @@ header nav .menu input:checked ~ span:nth-last-child(3) {
 header nav .menu input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(1px, 0px);
 }
+
