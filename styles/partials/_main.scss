@@ -4,8 +4,6 @@ main {
     line-height: 22px;
 }
 p{
-    padding-left: 16px;
-    padding-right: 16px;
     font-family: 'IBM Plex Mono', monospace;
     line-height: 22px;
     letter-spacing: 1px;
@@ -13,20 +11,19 @@ p{
 
 /* Section Hello World */
 
+.title{
+    padding-left: 16px;
+    padding-right: 16px;
+}
 h1{ 
     font-family: 'IBM Plex Sans', sans-serif;
     line-height: 42px;
     font-size: 36px;
     display: inline;
-    padding-left: 16px;
-    padding-right: 16px;
     font-weight: normal;
 }
 .strike{
     text-decoration: line-through;
-}
-br{
-    padding-left: 16px;
 }
 .firstp{
     margin-top: 16px;
@@ -55,8 +52,6 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 16px;
-    margin-right: 16px;
     margin-bottom: 24px;
 }
 button:hover{
@@ -108,8 +103,11 @@ iframe{
     margin-bottom: -41.5px;
 }
 .paragraph{
+    padding-left: 16px;
+    padding-right: 16px;
     margin-top: 8px;
 }
+
 
 /*Section Guests*/
 
@@ -147,6 +145,8 @@ iframe{
 /*Latest news*/
 
 .latest_news{
+    padding-left: 16px;
+    padding-right: 16px;
     z-index: 0;
     width: 100%;
     height: 341px;
