@@ -13,7 +13,6 @@ header nav {
     float: right;
 }
 header nav .menu ul {
-    /*posicion absolute para que se posicione debajo del resto del header - top medida del header*/
     width: 100%;
     position: absolute;
     top: 44px;
@@ -41,7 +40,6 @@ header nav .menu ul li a {
 header nav .menu  ul li a:hover {
     color: #fff;
 }
-/*animación del menu que se desplega*/
 header nav .menu input[type="checkbox"]:checked ~ ul {
     height: 240px;
     transition: height 0.5s ease-in-out;
@@ -52,7 +50,6 @@ header nav .menu input[type="checkbox"]:checked ~ ul {
 header nav .menu {
     padding-top: 3px;
 }
-/*checkbox transparente y en primer plano*/
 header nav .menu input {
     display: block;
     width: 40px;
@@ -61,7 +58,6 @@ header nav .menu input {
     z-index: 2;
     position: absolute;
 }
-/*span -lineas del menu hamburguesa-*/
 header nav .menu span {
     display: block;
     width: 25px;
@@ -80,7 +76,6 @@ header nav .menu span:first-child {
 header nav .menu span:nth-last-child(2) {
     transform-origin: 0% 100%;
 }
-/*movimiento a cruz*/
 header nav .menu input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(2px, 1px);
