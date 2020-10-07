@@ -1,0 +1,3 @@
+URL de mi repositorio. https://github.com/danielpereiraa/proyecto_podcast.git
+
+URL de mi sitio online. https://danielpereiraa.github.io/proyecto_podcast/
